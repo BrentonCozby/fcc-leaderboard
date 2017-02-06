@@ -44,6 +44,7 @@ class LeaderboardContainer extends Component {
     };
 
     render() {
+        console.log(this.state.data);
         return (
             <div className='leaderboard-container'>
                 <Leaderboard data={this.state.data} filter={this.state.filter} onFilterClick={this.onFilterClick} />
