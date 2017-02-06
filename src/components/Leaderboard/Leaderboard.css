@@ -1,0 +1,77 @@
+.leaderboard {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-collapse: collapse;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.leaderboard-head th {
+    padding: 4px;
+    font-size: .9em;
+    background-color: #ddd;
+}
+
+.user-row {
+    border: 1px solid #ccc;
+}
+
+.user-row td {
+    padding: 5px;
+    font-size: .8rem;
+}
+
+.username img {
+    display: none;
+    max-height: 60px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.username p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filter {
+    cursor: pointer;
+    color: blue;
+}
+
+.filter.active {
+    text-decoration: underline;
+}
+
+.filter.active:before {
+    content: '⇩ ';
+}
+
+@media all and (min-width: 768px) {
+    .leaderboard-head th {
+        padding: 8px;
+        font-size: 1.1em;
+    }
+
+    .leaderboard-head th:nth-of-type(2) {
+        text-align: left;
+        padding-left: 79px;
+    }
+
+    .user-row td {
+        font-size: 1rem;
+    }
+
+    .username {
+        text-align: left;
+    }
+
+    .username img {
+        display: inline-block;
+        margin-right: 15px;
+    }
+}
