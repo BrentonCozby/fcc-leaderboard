@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import Leaderboard from '../../components/Leaderboard/Leaderboard.js';
-import './Leaderboard-container.css';
+import Leaderboard from '../components/Leaderboard/Leaderboard.js';
 
 class LeaderboardContainer extends Component {
     constructor() {
