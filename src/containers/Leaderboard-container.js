@@ -2,13 +2,10 @@ import React, {Component} from 'react';
 import Leaderboard from '../components/Leaderboard/Leaderboard.js';
 
 class LeaderboardContainer extends Component {
-    constructor() {
-        super();
-        this.state = {
-            data: null,
-            filter: '30 Days'
-        };
-    }
+    state = {
+        data: null,
+        filter: '30 Days'
+    };
 
     componentDidMount() {
         // get leaderboard data one time when component mounts
