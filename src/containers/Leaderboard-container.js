@@ -7,8 +7,8 @@ class LeaderboardContainer extends Component {
         filter: '30 Days'
     };
 
-    componentDidMount() {
-        // get leaderboard data one time when component mounts
+    componentWillMount() {
+        // get leaderboard data and update state before mounting
         fetch('https://fcctop100.herokuapp.com/api/fccusers/top/recent')
         .then(data => data.json())
         .then(data => {
