@@ -1,25 +1,21 @@
 {
   "name": "fcc-leaderboard",
   "version": "0.1.0",
-  "private": true,
   "description": "View the FreeCodeCamp leaderboard. Created with create-react-app.",
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
   "homepage": "https://brentoncozby.com/free-code-camp/fcc-leaderboard/",
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "express": "^4.14.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BrentonCozby/fcc-leaderboard.git"
@@ -28,5 +24,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BrentonCozby/fcc-leaderboard/issues"
-  }
+  },
+  "keywords": [
+    "react",
+    "aws"
+  ]
 }
