@@ -5,7 +5,6 @@
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
-  "homepage": "https://brentoncozby.com/free-code-camp/fcc-leaderboard/",
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
